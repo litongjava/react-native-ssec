@@ -9,13 +9,13 @@ We use XMLHttpRequest to establish and handle an SSE connection, so you don't ne
 ### Yarn
 
 ```bash
-yarn add react-native-sse
+yarn add react-native-ssec
 ```
 
 ### NPM
 
 ```bash
-npm install --save react-native-sse
+npm install --save react-native-ssec
 ```
 
 ## 🎉 Usage
