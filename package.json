@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binaryminds/react-native-sse.git"
+    "url": "git+https://github.com/litongjava/react-native-ssec.git"
   },
   "keywords": [
     "react-native",
@@ -24,7 +24,7 @@
   "author": "BinaryMinds",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binaryminds/react-native-sse/issues"
+    "url": "https://github.com/litongjava/react-native-ssec/issues"
   },
-  "homepage": "https://github.com/binaryminds/react-native-sse#readme"
+  "homepage": "https://github.com/litongjava/react-native-ssec#readme"
 }

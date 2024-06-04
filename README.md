@@ -31,7 +31,7 @@ import EventSource from "react-native-sse";
 ### Connection and listeners
 
 ```js
-import EventSource from "react-native-sse";
+import EventSource from "react-native-ssec";
 
 const es = new EventSource("https://your-sse-server.com/.well-known/mercure");
 
@@ -61,7 +61,7 @@ If you want to use Bearer token and/or topics, look at this example (TypeScript)
 ```typescript
 import React, { useEffect, useState } from "react";
 import { View, Text } from "react-native";
-import EventSource, { EventSourceListener } from "react-native-sse";
+import EventSource, { EventSourceListener } from "react-native-ssec";
 import "react-native-url-polyfill/auto"; // Use URL polyfill in React Native
 
 interface Book {
@@ -204,7 +204,7 @@ const options: EventSourceOptions = {
 Using EventSource you can handle custom events invoked by the server:
 
 ```typescript
-import EventSource, { EventSourceListener, EventSourceEvent } from "react-native-sse";
+import EventSource, { EventSourceListener, EventSourceEvent } from "react-native-ssec";
 
 type MyCustomEvents = "ping" | "clientConnected" | "clientDisconnected";
 
@@ -232,7 +232,7 @@ es.addEventListener("clientDisconnected", (event) => {
 Using one listener for all events:
 
 ```typescript
-import EventSource, { EventSourceListener } from "react-native-sse";
+import EventSource, { EventSourceListener } from "react-native-ssec";
 
 type MyCustomEvents = "ping" | "clientConnected" | "clientDisconnected";
 
@@ -257,7 +257,7 @@ es.addEventListener('ping', listener);
 Using generic type for one event:
 
 ```typescript
-import EventSource, { EventSourceListener, EventSourceEvent } from "react-native-sse";
+import EventSource, { EventSourceListener, EventSourceEvent } from "react-native-ssec";
 
 type MyCustomEvents = "ping" | "clientConnected" | "clientDisconnected";
 
